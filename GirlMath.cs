@@ -14,11 +14,11 @@ public static class GirlMath
 
     public static double deg2rad(double degree)
     {
-        return (double)degree * (Math.PI / 180);
+        return degree * (Math.PI / 180);
     }
 
     public static double rad2deg(double radian)
     {
-        return (double)radian * (180 / Math.PI);
+        return radian * (180 / Math.PI);
     }
 }
